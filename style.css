@@ -1,0 +1,28 @@
+table, td, th {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.cuadro{
+width: 100%;
+height: 100%;
+
+}
+thead{
+    background-color: red;
+    color: white;
+}
+tbody :active{
+    background-color: yellow;
+}
+
+tfoot{
+    background-color: greenyellow;
+    color: white;
+}
+.tabla{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
